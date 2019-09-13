@@ -1,0 +1,754 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+
+<head>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <base href="https://www.eapmovies.com/component/eapmovies/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="eapmovies, Sri lanka movie hall, savoy, liberty, queenlan, eap films" />
+  <meta name="description" content="eapmovies.com is the new complete cinema entertainment experience. With the ultimate wide screen, sound and seating experience, a range of cafe and bar facilities and a delicious array of tasty treats, going to the movies is now easier" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>EAP Films and Theatres Private Limited</title>
+  <link href="https://y3k7n9q4.stackpathcdn.com/templates/eap2/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="https://y3k7n9q4.stackpathcdn.com/media/system/css/calendar-jos.css" type="text/css"  title="Green"  media="all" />
+  <link rel="stylesheet" href="https://y3k7n9q4.stackpathcdn.com/components/com_eapmovies/assets/css/vader/jquery-ui-1.8.17.custom.css" type="text/css" />
+  <script src="https://y3k7n9q4.stackpathcdn.com/media/system/js/calendar.js" type="text/javascript"></script>
+  <script src="https://y3k7n9q4.stackpathcdn.com/media/system/js/calendar-setup.js" type="text/javascript"></script>
+  <script type="text/javascript">
+Calendar._DN = new Array ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"); Calendar._SDN = new Array ("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"); Calendar._FD = 0; Calendar._MN = new Array ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"); Calendar._SMN = new Array ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"); Calendar._TT = {};Calendar._TT["INFO"] = "About the Calendar"; Calendar._TT["ABOUT"] =
+ "DHTML Date/Time Selector\n" +
+ "(c) dynarch.com 2002-2005 / Author: Mihai Bazon\n" +
+"For latest version visit: http://www.dynarch.com/projects/calendar/\n" +
+"Distributed under GNU LGPL.  See http://gnu.org/licenses/lgpl.html for details." +
+"\n\n" +
+"Date selection:\n" +
+"- Use the « and » buttons to select year\n" +
+"- Use the < and > buttons to select month\n" +
+"- Hold mouse button on any of the above buttons for faster selection.";
+Calendar._TT["ABOUT_TIME"] = "\n\n" +
+"Time selection:\n" +
+"- Click on any of the time parts to increase it\n" +
+"- or Shift-click to decrease it\n" +
+"- or click and drag for faster selection.";
+
+		Calendar._TT["PREV_YEAR"] = "Click to move to the previous year. Click and hold for a list of years."; Calendar._TT["PREV_MONTH"] = "Click to move to the previous month. Click and hold for a list of the months."; Calendar._TT["GO_TODAY"] = "Go to today"; Calendar._TT["NEXT_MONTH"] = "Click to move to the next month. Click and hold for a list of the months."; Calendar._TT["NEXT_YEAR"] = "Click to move to the next year. Click and hold for a list of years."; Calendar._TT["SEL_DATE"] = "Select a date."; Calendar._TT["DRAG_TO_MOVE"] = "Drag to move"; Calendar._TT["PART_TODAY"] = "Today"; Calendar._TT["DAY_FIRST"] = "Display %s first"; Calendar._TT["WEEKEND"] = "0,6"; Calendar._TT["CLOSE"] = "Close"; Calendar._TT["TODAY"] = "Today"; Calendar._TT["TIME_PART"] = "(Shift-)Click or Drag to change the value."; Calendar._TT["DEF_DATE_FORMAT"] = "%Y-%m-%d"; Calendar._TT["TT_DATE_FORMAT"] = "%a, %b %e"; Calendar._TT["WK"] = "wk"; Calendar._TT["TIME"] = "Time:";
+  </script>
+
+
+<script src="https://y3k7n9q4.stackpathcdn.com/templates/eap2/js/jquery.js"></script>
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"  crossorigin="anonymous">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js" crossorigin="anonymous"></script>
+
+
+
+
+<link href="https://y3k7n9q4.stackpathcdn.com/templates/eap2/css/style.css" rel="stylesheet" type="text/css" />
+<link href="https://y3k7n9q4.stackpathcdn.com/templates/eap2/css/style_new.css" rel="stylesheet" type="text/css" />
+
+<!--[if lt IE 9]>
+
+<script src="https://y3k7n9q4.stackpathcdn.com/media/jui/js/html5.js"></script>
+
+<![endif]-->
+
+<!--[if lte IE 7]>
+
+<link href="https://y3k7n9q4.stackpathcdn.com/templates/eap2/css/template_IEold.css" rel="stylesheet" type="text/css" />
+
+<![endif]-->
+
+<!--[if IE 8]>
+
+<link href="https://y3k7n9q4.stackpathcdn.com/templates/eap2/css/template_IE8.css" rel="stylesheet" type="text/css" />
+
+<![endif]-->
+
+<!--[if IE 9]>
+
+<link href="https://y3k7n9q4.stackpathcdn.com/templates/eap2/css/template_IE9.css" rel="stylesheet" type="text/css" />
+
+<![endif]-->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1955100-15']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '811004105708523');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=811004105708523&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+<script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+
+
+
+
+
+
+<body id="itemid-111">
+
+<div class="header_wrapper">    
+  <div class="main_menu_wrapper">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="h_logo visible-xs">
+        <a href="https://www.eapmovies.com/"><img src="https://y3k7n9q4.stackpathcdn.com/templates/eap2/images/logo.png" class=""></a>
+      </div>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      </div>
+
+      <div class="container">  
+        <div class="row">
+          <div class="col-md-1 hidden-xs">
+            <div class="h_logo">
+              <a href="https://www.eapmovies.com/"><img src="https://y3k7n9q4.stackpathcdn.com/templates/eap2/images/logo.png" class=""></a>
+            </div>
+          </div>
+          <div class="col-md-11">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              		<div class="moduletable_menu">
+					
+<ul class="menu sf-menu  sf-js-enabled sf-shadow nav navbar-nav">
+<li class="item-101 current"><a href="http://www.eapmovies.com/" >Home</a></li><li class="item-110"><a href="/component/eapmovies/?controller=movies&amp;view=movielist&amp;Itemid=110" >Movies</a></li><li class="item-111"><a href="/component/eapmovies/?controller=ratesandshowtime&amp;Itemid=111" >Rates &amp; Show Times</a></li><li class="item-112"><a href="/component/eapmovies/?controller=theaters&amp;view=theaterlist&amp;Itemid=112" >Theatres</a></li><li class="item-113"><a href="/news" >News</a></li><li class="item-114"><a href="/component/eapmovies/?controller=offer&amp;Itemid=114" >Offers</a></li><li class="item-115"><a href="/component/eapmovies/?controller=buyticket&amp;task=book&amp;Itemid=115" >Buy Tickets</a></li><li class="item-127"><a href="/contact-us" >Contact Us</a></li></ul>
+		</div>
+	
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+
+ <!-- Carousel - Main Slider -->
+
+
+<div class="main_slider hidden-xs">
+
+    		<div class="moduletable">
+					
+
+<div class="custom"  >
+	<p><img src="https://y3k7n9q4.stackpathcdn.com/images/Inner_Top_Banner_Apr5.jpg" border="0" alt="" /></p></div>
+		</div>
+	
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="upcoming_movies">
+
+  <div class="container">
+
+    
+
+  </div>
+
+</div>
+
+
+
+
+          <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-4">
+
+              <div class="left_mod">
+
+                  
+
+              </div>
+
+          </div>
+
+          <div class="col-md-12">
+
+                <div class="inner_page">
+
+                  
+<div id="system-message-container">
+</div>
+
+                  <script src="https://y3k7n9q4.stackpathcdn.com/components/com_eapmovies/assets/js/jquery-ui.1.10.js"></script><!-- Bootstrap Date-Picker Plugin -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+<style>
+    
+    .loader {
+	   display: none;
+    }    
+    .form-group::before {
+        clear: both;
+        content: " ";
+        display: table;
+        margin-bottom: 15px;
+    }
+    
+</style>
+   
+<script>
+    
+    jQuery(document).ready(function($) {
+        jQuery('#filter_date').empty();
+        jQuery('#filter_theater').val(0);
+        jQuery('#filter_showtime').val(0);
+        jQuery('#ticket_prices').hide();        
+        jQuery('#movie').val('');
+        jQuery('#filter_date_img').attr('src', 'https://www.eapmovies.com/components/com_eapmovies/assets/images/calendar.png');
+        jQuery('.rates-errors').hide();
+
+        var date_input=$('#datetimepicker1'); //our date input has the name "date"
+        var options={
+            format: 'yyyy-mm-dd',           
+            autoclose: true,
+            forceParse: false,
+            Default: true,
+            pickDate: true,
+            todayHighlight: true,
+        };
+        date_input.datepicker(options);
+
+        addClass();
+
+    });
+    
+    function getRates(){
+        
+         var $html = '';
+            
+            if(jQuery('#filter_date').val() == ''){
+                $html += '<li>Select a Date.</li>';
+            }
+            
+            if(jQuery('#filter_theater').val()==0){                
+                $html += '<li>Select a Theater.</li>';  
+            }        
+            if(jQuery("#filter_showtime").val()== 0){
+                $html += '<li>Select a Movie Time.</li>';                
+            }
+            
+            if(jQuery('#movie').val()==''){
+                $html += '<li>Movie not available.</li>';         
+            }                 
+           
+            jQuery('.rates-errors').hide();
+
+            if($html == '')
+            {
+               jQuery.post('index.php',{
+                        'option':'com_eapmovies',
+                        'controller':'ratesandshowtime',
+                        'task':'getMovieRates',
+                        'format':'raw',      
+                        'sdate':jQuery('#filter_date').val(),                   
+                        'tid':jQuery('#filter_theater').val(),
+                        'sid':jQuery('#filter_showtime').val()
+                },function(result)
+                {   
+                    var s = result.split('@');                   
+                    if(s[1]=='1'){
+                        jQuery('#ticket_prices').show();
+                        jQuery('#ticket_prices').html(s[0]);  
+                        jQuery('#theater_id').val(jQuery('#filter_theater').val());
+                        jQuery('#showtime_id').val(jQuery('#filter_showtime').val());
+                    }
+                    else{
+                        jQuery('#ticket_prices').hide();
+                        jQuery('#movies_now_showing').hide();
+                        // jQuery(".rates-errors-ul li").remove();
+                        jQuery(".rates-errors").append('Sorry rates can not be show for past show times.');
+                        jQuery('.rates-errors').show();
+                        // jQuery(window).scrollTop(jQuery('.rates-errors').offset().top);
+                    }
+                }  
+            );
+            }
+          
+        
+    }
+
+    //if past date is clicked always set to current date
+    function checkDate()
+    {
+        clearAll();
+        var selectdatebj = document.getElementById('filter_date');
+        var selectdate = new Date(selectdatebj.value);
+        var searchdateobj = new Date();
+        var searchdate = searchdateobj.setDate(searchdateobj.getDate()+2);
+        searchdate = new Date(searchdate);
+        var difference = selectdate - searchdate
+        var days = Math.round(difference/(1000*60*60*24));
+        
+        var d = new Date();
+        var curr_date = d.getDate();
+        var curr_month = d.getMonth() + 1; 
+        var curr_year = d.getFullYear();
+        
+        if(days < -2)
+            selectdatebj.value = curr_year+'-'+('0'+curr_month).slice(-2)+'-'+curr_date;
+    } 
+    
+    function clearAll(){
+        jQuery('#filter_theater').val(0);
+        jQuery('#filter_showtime').val(0);
+        jQuery('#movie').val('');
+        jQuery('#ticket_prices').hide();        
+    }
+    
+    function getMovie(){
+           jQuery('#ticket_prices').hide();           
+           jQuery('#movie_list_loading').show();
+           jQuery.post('index.php',{
+                        'option':'com_eapmovies',
+                        'controller':'ratesandshowtime',
+                        'task':'getMovieName',
+                        'format':'raw',      
+                        'sdate':jQuery('#filter_date').val(),                   
+                        'tid':jQuery('#filter_theater').val(),
+                        'sid':jQuery('#filter_showtime').val()
+            },function(result)
+            {  
+                var s = result.split('@');    
+                jQuery('#movie_list_loading').hide();               
+                jQuery('#movie').val(s[0]);
+                jQuery('#movie_id').val(s[1]);
+            }  
+            );
+    }
+    
+    function clearShowtimeMovie(){
+            jQuery("#filter_showtime").val(0);
+            jQuery('#ticket_prices').hide();            
+            jQuery('#movie').val('');
+            jQuery.post('index.php',{
+                        'option':'com_eapmovies',
+                        'controller':'ratesandshowtime',
+                        'task':'getShowTimeList',
+                        'format':'raw',      
+                        'sdate':jQuery('#filter_date').val(),                   
+                        'tid':jQuery('#filter_theater').val()                        
+            },function(result)
+            {   
+                jQuery('#showtime_list').html(result);
+            }  
+            );
+            addClass();
+    }
+    
+    function addClass(){
+        // alert('asd');
+        jQuery('#filter_showtime').addClass('form-control');
+        // jQuery('#movie').addClass('form-control');
+    }
+
+
+</script>
+<div class="container">    
+	
+        <span class="nowshowing_wrp"><h3>Rates and Show Time</h3></span>
+<div id="process">
+  		<div class="">
+  			<div class="row rate_wrapper clearfix">
+  				<div class="col-md-12">
+  					<!-- <div class="header_name">            
+                    <h2> </h2>
+        			</div> -->    
+                    <div class="header_detail_wrapper">
+                        <p>Please select  the required theater and the showtime from the dropdown lists and it will display current rates applicable to the relevant theater and show time</p>
+                        <strong><p>Note:</p></strong>
+                        <p>The Ticket rates and Showtimes displayed are standard rates and showtimes for the Theater ONLY. Tickets Rates and Show Tmes may differ from Movie to Movie</p>
+                    </div>
+  				</div>
+  			</div>
+        <div class="row rate_wrapper clearfix">
+        <div class="alert alert-danger rates-errors"> 
+        </div>    
+          <div class="col-md-6 col-md-offset-3">
+<!--             <form class="form-horizontal process-form"> -->
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-5 control-label">Date</label>
+                <div class="col-sm-7">
+                    <div class='input-group date' id='datetimepicker1'>
+                        <input id="filter_date" type="text" class="form-control" onchange="checkDate()" name="filter_date" />
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                                  </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-5 control-label">Theater</label>
+                <div class="col-sm-7">
+                  
+<select name="filter_theater" id="filter_theater" class="input form-control" size="1" onchange="clearShowtimeMovie();";style="margin-top:0px;">
+<option value="0" selected = "selected">Select Theater</option>
+<option value="2" >Savoy 2 - Wellawatte</option>
+<option value="3" >Savoy 3D Dolby ATMOS - Wellawatte</option>
+<option value="7" >Concord - Dehiwala</option>
+<option value="8" >Cinemax 3D - Jaela</option>
+<option value="10" >Willmax 3D - Anuradhapura</option>
+<option value="11" >Excel 3D - Colombo 10</option>
+<option value="12" >Queens 3D - Galle</option>
+<option value="14" >Jothi 3D - Rathnapura</option>
+<option value="15" >Sinexpo 3D - Kurunegala</option>
+<option value="16" >Samantha - Dematagoda</option>
+<option value="19" >Regal - Ambalangoda</option>
+<option value="20" >Tower - Moratuwa</option>
+<option value="208" >Savoy Premiere (Roxy Cinema) - Wellawatte</option>
+<option value="238" >Savoy Premier Rajagiriya - Rajagiriya</option>
+<option value="242" >Savoy Metro - Gampaha - Gampaha</option></select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-5 control-label">Show Time</label>
+                <div class="col-sm-7" id="showtime_list">
+                  
+<select name="filter_showtime" id="filter_showtime" class="input form-control" size="1" onchange="getMovie();";style="margin-top:0px;">
+<option value="0" selected = "selected">Select Show Time</option>
+<option value="1" >9:30 PM</option>
+<option value="9" >8:00 PM</option>
+<option value="10" >10:30 AM</option>
+<option value="11" >1:30 PM</option>
+<option value="12" >4:15 PM</option>
+<option value="13" >7:00 PM</option>
+<option value="14" >2:30 PM</option>
+<option value="15" >6:30 PM</option>
+<option value="16" >3:00 PM</option>
+<option value="17" >4:30 PM</option>
+<option value="18" >7:30 PM</option>
+<option value="19" >11:30 AM</option>
+<option value="20" >5:00 PM</option>
+<option value="21" >1:15 PM</option>
+<option value="22" >10:15 AM</option>
+<option value="23" >4:00 PM</option>
+<option value="24" >8:30 PM</option>
+<option value="25" >8:00 AM</option>
+<option value="26" >1:00 PM</option>
+<option value="27" >10:00 PM</option>
+<option value="28" >9:00 AM</option>
+<option value="29" >10:15 PM</option>
+<option value="30" >10:00 AM</option>
+<option value="32" >8:30 AM</option>
+<option value="33" >7:45 PM</option>
+<option value="34" >10:45 PM</option>
+<option value="35" >7:15 PM</option>
+<option value="36" >10:30 PM</option>
+<option value="37" >11:30 PM</option>
+<option value="38" >10:45 AM</option>
+<option value="39" >9:45 PM</option>
+<option value="40" >11:59 PM</option>
+<option value="41" >7:00 AM</option>
+<option value="42" >9:30 AM</option>
+<option value="43" >12:30 PM</option>
+<option value="44" >3:30 PM</option>
+<option value="45" >12:15 PM</option>
+<option value="46" >11:15 PM</option>
+<option value="47" >6:15 PM</option>
+<option value="48" >9:00 PM</option>
+<option value="49" >1:00 AM</option>
+<option value="50" >2:00 AM</option>
+<option value="51" >12:00 PM</option>
+<option value="52" >12:30 AM</option>
+<option value="53" >5:00 AM</option>
+<option value="54" >11:00 AM</option>
+<option value="55" >7:30 AM</option>
+<option value="56" >4:00 AM</option>
+<option value="57" >5:30 AM</option>
+<option value="58" >1:30 AM</option>
+<option value="59" >2:00 PM</option>
+<option value="60" >11:00 PM</option>
+<option value="61" >3:45 PM</option>
+<option value="62" >8:45 PM</option>
+<option value="63" >11:15 AM</option>
+<option value="64" >9:15 PM</option>
+<option value="65" >1:45 PM</option>
+<option value="66" >6:45 PM</option>
+<option value="67" >6:00 PM</option>
+<option value="68" >5:15 PM</option>
+<option value="69" >11:55 PM</option>
+<option value="70" >5:30 PM</option></select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-5 control-label">Movie</label>
+                <div class="col-sm-7">
+                  <input type="text" class="form-control" disabled="disabled" name="movie" id="movie" /><span id="movie_list_loading" class="loader"> <img src="https://y3k7n9q4.stackpathcdn.com/components/com_eapmovies/assets/images/loader.gif"/> </span>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-7">
+                  
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-5 col-sm-7">
+                <input class="btn btn-default next-btn" name="getrates" id="getrates" type="button" onclick="getRates();" value="Get Rates"/>
+                </div>
+              </div>
+<!--             </form> -->
+            <form action="index.php?52447381e2c43eb5030af8f7a72c211b=1" method="post" name="adminForm">
+                <input type="hidden" name="option" value="com_eapmovies" />                
+                <input type="hidden" name="controller" value="buyticket" />
+                <input type="hidden" name="task" value="" />
+                <input type="hidden" name="Itemid" value="115" />
+                <input type="hidden" name="tid" id="theater_id" />
+                <input type="hidden" name="sid" id="showtime_id" />    
+                <input type="hidden" name="mid" id="movie_id" />                 
+                 <!-- insert the hidden token to the form -->
+                <input type="hidden" name="3fb0e5afea6cb8799934d72dc4e3247e" value="1" />   
+              
+            <div id="ticket_prices">
+                
+            </div>  
+             </form>
+          </div>
+        </div>
+  		</div>
+  	</div>
+        </div>
+
+                </div>
+
+          </div>
+
+          <div class="col-md-4">
+
+              <div class="right_mod">
+
+                  
+
+              </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+    
+
+
+
+
+
+
+
+
+
+<div class="star_interview">
+
+  <div class="container">
+
+    		<div class="moduletable">
+					
+
+<div class="custom"  >
+	<p><a href="https://www.unionb.com/credit-cards/" target="_blank"><img class="img-responsive" src="https://y3k7n9q4.stackpathcdn.com/images/Union_Bank_Offeraw.jpg" border="0" alt="" /></a></p>
+<div id="__tbSetup"> </div></div>
+		</div>
+			<div class="moduletable">
+					<div class="bannergroup">
+
+
+</div>
+		</div>
+			<div class="moduletable">
+					
+
+<div class="custom"  >
+	<p><a href="https://www.eapmovies.com/component/eapmovies/?controller=offer&amp;view=offer&amp;task=displayOffer&amp;cid=13&amp;Itemid=114" target="_blank"><img class="img-responsive" src="https://y3k7n9q4.stackpathcdn.com/images/EAP_DFCC_Offer.jpg" border="0" alt="" /></a></p>
+<div id="__tbSetup"> </div></div>
+		</div>
+			<div class="moduletable">
+					
+
+<div class="custom"  >
+	<p><img class="img-responsive" src="https://y3k7n9q4.stackpathcdn.com/images/savoyrajagiriya.jpg" border="0" alt="" /></p>
+<div id="__tbSetup"> </div></div>
+		</div>
+			<div class="moduletable">
+					
+
+<div class="custom"  >
+	<p><img class="img-responsive" src="https://y3k7n9q4.stackpathcdn.com/images/savoy_metro_banner.jpg" border="0" alt="EAP Savoy Metro" /></p>
+<div id="__tbSetup"> </div></div>
+		</div>
+	
+
+  </div>
+
+</div>
+
+
+<div class="bottom_wrapper">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-sm-6">
+
+        <div class="register_wrapper">
+
+          
+
+          </div>
+
+      </div>
+
+      <div class="col-sm-5 col-sm-offset-1">
+
+        <div class="newsletter_wrapper">
+
+          
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+
+  <div class="container">
+
+    <div class="row ">
+
+      <div class="col-md-5 col-sm-12">
+
+        <div class="footer_left"> <img src="https://y3k7n9q4.stackpathcdn.com/images/footer_logo.png" class="img-responsive" alt="EAP Logo"><p> © 2018 EAP Movies. All Rights Reserved.  Site by <a href="#">Archmage</a> </p></div>
+
+      </div>
+
+      <div class="col-md-7 col-sm-12">
+
+        <div class="footer_right top hidden-xs">
+          		<div class="moduletable">
+					
+<ul class="menu">
+<li class="item-122"><a href="/" >Home</a></li><li class="item-123"><a href="http://eapmovies.com/index.php?option=com_content&amp;view=article&amp;layout=edit&amp;id=44&amp;Itemid=123" >Privacy Policy</a></li><li class="item-124"><a href="http://eapmovies.com/index.php?option=com_content&amp;view=article&amp;layout=edit&amp;id=45&amp;Itemid=124" >Terms of Use</a></li><li class="item-125"><a href="http://eapmovies.com/index.php?option=com_content&amp;view=article&amp;layout=edit&amp;id=43&amp;Itemid=125" >Disclaimer</a></li><li class="item-126"><a href="/about-us" >About Us</a></li></ul>
+		</div>
+	
+        </div>
+
+        <div class="footer_right bottom hidden-xs">
+          		<div class="moduletable">
+					
+<ul class="menu">
+<li class="item-117"><a href="/login" >Login</a></li><li class="item-118"><a href="/register" >Register</a></li><li class="item-119"><a href="/advertise" >Advertise</a></li><li class="item-163"><a href="http://eapmovies.com/index.php?option=com_content&amp;view=article&amp;id=33&amp;Itemid=163" >Careers</a></li><li class="item-120"><a href="/component/eapmovies/?controller=contact&amp;Itemid=120" >Contact Us</a></li></ul>
+		</div>
+	
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+
+<div id='sp_modal' class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+<div class="modal-dialog modal-lg" role="document">
+     <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <a href="https://www.eapmovies.com/component/eapmovies/?controller=buyticket&task=book&cid=775">
+          <img class="img-responsive" src="https://y3k7n9q4.stackpathcdn.com/templates/eap2/images/avengers_gettickets.jpg">
+        </a>
+      </div>      
+    </div>
+  </div>
+</div>
+
+
+<script>
+
+
+
+  jQuery(document).ready(function ($) {
+
+    
+
+    var menu = $('.menusticky');
+
+    // var origOffsetY = menu.offset().top;
+
+
+    function scroll() {
+        
+        if ($(window).scrollTop() >= 50) {
+            $('.navbar').addClass('sticky');
+            $('.content').addClass('menu-padding');
+        } else {
+            $('.navbar').removeClass('sticky');
+            $('.content').removeClass('menu-padding');
+        }
+
+
+    }
+
+    document.onscroll = scroll;
+
+
+
+});
+
+    </script>
+
+</body>
+
+</html>
+

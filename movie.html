@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+	<html>
+	<head>
+		<title>Add a new Movie</title>
+
+	</head>
+	<body>
+	  <form action="assets/samplein.php" method="POST">
+	   <table>
+		
+		<tr>
+		 <td>Name:</td>
+		 <td><input type="text" name="Name" required></td>
+		</tr>
+		<tr>
+		 <td>Certificate:</td>
+		 <td><input type="text" name="Certificate" required></td>
+		</tr>
+		<tr>
+		 <td>Type:</td>
+		 <td> 
+		  <select name="Type">
+			<option value="English" for="Type">English</option>
+			<option value="Tamil" for="Type">Tamil</option>
+			<option value="Sinhala" for="Type">Sinhala</option>
+			<option value="Hindi" for="Type">Hindi</option>
+			<option value="Telungu" for="Type">Telugu</option>
+			<option value="Malayalam" for="Type">Malayalam</option>
+		  </select>
+		
+		 </td>
+		</tr>
+		<tr>
+		 <td>Director:</td>
+		 <td><input type="text" name="Director" required></td>
+		</tr>
+		<tr>
+		 <td>Release_Date:</td>
+		 <td><input type="Date" name="Release_date" required></td>
+		</tr>
+		<tr>
+		 <td>Premire_Date:</td>
+		 <td><input type="Date" name="Premire_Date" required></td>
+		</tr>
+		<tr>
+		  <td>Description:</td>
+		  <td><input type="text" name="Description" required></td>
+		</tr>
+		<tr>
+		 <td>Movie_id:</td>
+		 <td><input type="text" name="Movie_id" required></td>
+		</tr>
+		<tr>
+		 <td><input type="Submit" name="add" value="Submit"></td>
+		</tr>
+	   </table>
+	  </form>
+	</body>
+	</html>
