@@ -1,0 +1,224 @@
+.navbar .navbar-nav li a:hover, .navbar-nav li.active a{
+	color: #dd44fe !important;
+}
+.site-footer .footer-nav li a:hover, .footer-nav li.active a {
+	color: #dd44fe !important;
+}
+.footer_left .company_name{
+	color: #1e00ff !important;
+}
+
+
+/*HomePage*/
+.carousel-caption .btn-0.btn-danger{
+	background: #23241d !important;
+}
+.carousel-caption .btn-1{
+	color: #000;
+	background: -moz-linear-gradient(top,  #fae156 50%, #f7c900 50%); /* FF3.6+ */
+	background: -webkit-linear-gradient(top,  #fae156 50%, #f7c900 50%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,   #fae156 50%, #f7c900 50%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,   #fae156 50%, #f7c900 50%); /* IE10+ */
+	background: linear-gradient(to bottom,   #fae156 50%, #f7c900 50%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=' #fae156', endColorstr='#f7c900',GradientType=0 ); /* IE6-9 */
+}
+.carousel-caption .btn-1:hover, .btn-1:focus, .btn-1:active, .btn-1.active, .open > .dropdown-toggle.btn-1 {
+	background: -moz-linear-gradient(top,  #fce97f 50%, #fcd62f 50%); /* FF3.6+ */
+	background: -webkit-linear-gradient(top,  #fce97f 50%, #fcd62f 50%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,   #fce97f 50%, #fcd62f 50%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,   #fce97f 50%, #fcd62f 50%); /* IE10+ */
+	background: linear-gradient(to bottom,   #fce97f 50%, #fcd62f 50%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=' #fce97f', endColorstr='#fcd62f',GradientType=0 ); /* IE6-9 */
+}
+.carousel-caption .btn-1:active, .btn-1.active {
+	background: -moz-linear-gradient(top,  #eed547 50%, #e4ba00 50%); /* FF3.6+ */
+	background: -webkit-linear-gradient(top,  #eed547 50%, #e4ba00 50%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,   #eed547 50%, #e4ba00 50%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,   #eed547 50%, #e4ba00 50%); /* IE10+ */
+	background: linear-gradient(to bottom,   #eed547 50%, #e4ba00 50%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=' #eed547', endColorstr='#e4ba00',GradientType=0 ); /* IE6-9 */
+	box-shadow: none!important;
+}
+.carousel-caption .btn-1:focus {
+	box-shadow: none!important;
+}
+.btn-2{
+	color: #FFF;
+	background: -moz-linear-gradient(top,  #6f3496 50%, #43007a 50%)!important; /* FF3.6+ */
+	background: -webkit-linear-gradient(top,    #6f3496 50%, #43007a 50%)!important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,    #6f3496 50%, #43007a 50%)!important; /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,    #6f3496 50%, #43007a 50%)!important; /* IE10+ */
+	background: linear-gradient(to bottom,   #6f3496 50%, #43007a 50%)!important; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f3496', endColorstr='#43007a',GradientType=0 ); /* IE6-9 */
+}
+.btn-2:hover, .btn-2:focus, .btn-2:active, .btn-2.active, .open > .dropdown-toggle.btn-2 {
+	background: -moz-linear-gradient(top,  #7651a0 50%, #5b1b8f 50%)!important; /* FF3.6+ */
+	background: -webkit-linear-gradient(top,  #7651a0 50%, #5b1b8f 50%)!important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,   #7651a0 50%, #5b1b8f 50%)!important; /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,   #7651a0 50%, #5b1b8f 50%)!important; /* IE10+ */
+	background: linear-gradient(to bottom,   #7651a0 50%, #5b1b8f 50%)!important; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7651a0', endColorstr='#5b1b8f',GradientType=0 ); /* IE6-9 */
+}
+.btn-2:active, .btn-2.active {
+	background: -moz-linear-gradient(top,  #6f3496 50%, #43007a 50%)!important; /* FF3.6+ */
+	background: -webkit-linear-gradient(top,  #6f3496 50%, #43007a 50%)!important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,   #6f3496 50%, #43007a 50%)!important; /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,   #6f3496 50%, #43007a 50%)!important; /* IE10+ */
+	background: linear-gradient(to bottom,   #6f3496 50%, #43007a 50%)!important; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f3496', endColorstr='#43007a',GradientType=0 ); /* IE6-9 */
+	box-shadow: none!important;
+}
+.btn-2:focus {
+	box-shadow: none!important;
+}
+.owl-carousel .card .card-body .btn-booking {
+    color: #FFF;
+    background: -moz-linear-gradient(top, #6f3496 50%, #43007a 50%)!important;
+    background: -webkit-linear-gradient(top, #6f3496 50%, #43007a 50%)!important;
+    background: -o-linear-gradient(top, #6f3496 50%, #43007a 50%)!important;
+    background: -ms-linear-gradient(top, #6f3496 50%, #43007a 50%)!important;
+    background: linear-gradient(to bottom, #6f3496 50%, #43007a 50%)!important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f3496', endColorstr='#43007a',GradientType=0 );
+	outline: none !important;
+	box-shadow: none !important;
+}
+.owl-carousel .card .card-body .btn-booking:hover, .btn-booking:focus, .btn-booking:active, .btn-booking.active, .open > .dropdown-toggle.btn-booking {
+	background: -moz-linear-gradient(top,  #7651a0 50%, #5b1b8f 50%)!important; /* FF3.6+ */
+	background: -webkit-linear-gradient(top,  #7651a0 50%, #5b1b8f 50%)!important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,   #7651a0 50%, #5b1b8f 50%)!important; /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,   #7651a0 50%, #5b1b8f 50%)!important; /* IE10+ */
+	background: linear-gradient(to bottom,   #7651a0 50%, #5b1b8f 50%)!important; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7651a0', endColorstr='#5b1b8f',GradientType=0 ); /* IE6-9 */
+}
+.owl-carousel .card .card-body .btn-booking:active, .btn-booking.active {
+	background: -moz-linear-gradient(top,  #6f3496 50%, #43007a 50%)!important; /* FF3.6+ */
+	background: -webkit-linear-gradient(top,  #6f3496 50%, #43007a 50%)!important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,   #6f3496 50%, #43007a 50%)!important; /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,   #6f3496 50%, #43007a 50%)!important; /* IE10+ */
+	background: linear-gradient(to bottom,   #6f3496 50%, #43007a 50%)!important; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f3496', endColorstr='#43007a',GradientType=0 ); /* IE6-9 */
+	box-shadow: none;
+}
+.owl-carousel .card .card-body .btn-danger, .btn-danger:hover, .btn-danger:focus, .btn-danger:active {
+	background-color: #7d35dc !important;
+	border-color: #6f35dc !important;
+}
+#itemid-1 .owl-carousel .card .card-body a.movie_name h5:hover {
+    color: #0023bf !important;
+}
+
+/*Movies-Page*/
+.btn-danger {
+	background-color:#43007a !important;
+	border-color: #6f35dc !important;
+}
+.btn-danger:hover {
+	background-color:#5b1b8f !important;
+	box-shadow: none !important;
+}
+.btn-danger:active {
+	background-color:#5b1b8f !important;
+	box-shadow: none !important;
+}
+.btn-danger:focus {
+	background-color:#43007a !important;
+	box-shadow: none !important;
+}
+.movies .btn-danger:focus {
+	background-color:#43007a !important;
+}
+.movie_name h6:hover {
+	color:#0023bf !important;
+}
+.theatre_name h6:hover {
+	color:#0023bf !important;
+}
+
+
+/*BuyTickets*/
+#show_date {
+	background-color: #f0f0f0;
+	border-bottom: 4px solid #13087a !important;
+}
+.show-date li.datepicker:hover {
+	background-color: #13087a !important;
+	color: #fff;
+}
+.show-date li.active {
+	background-color: #13087a !important;
+	color: #fff;
+}
+.alert-danger {
+    color: #1c2572 !important;
+    background-color: #d8d7f8 !important;
+    border-color: #c7c6f5 !important;
+}
+.buy-tickets .theater-showtime li a {
+	color: #0d00c2 !important;
+}
+.buy-tickets .theater-showtime li a:hover {
+	color: #0004f5 !important;
+}
+.buy-tickets .one-theater-showing a.disabled {
+	color: #666666 !important;
+}
+
+.modal_content_tickets .modal-body .first_form .form_area .firstbtn {
+    background-color: #13087a !important;
+    color: #fff !important;
+}
+.modal_content_tickets .modal-body .first_form .form_area .btn.firstbtn:hover {
+	background-color: #1c0fd3 !important;
+}
+.modal_content_tickets .modal-body .first_form .form_area .btn.firstbtn:focus{
+	background-color:#1a0c9b !important;
+}
+.modal_content_theater_seat_map .modal-body .booking_category_showtime .showtime_display .showtime{
+	color: #fff !important;
+	background: #13087a !important;
+}
+.modal_content_theater_seat_map #bottom-next-wrapper .btn.next-btn {
+	color: #1d0dad !important;
+}
+.modal_content_theater_seat_map #bottom-next-wrapper .btn.next-btn:hover {
+	background-color: #13087a !important;
+	color: #FFF !important;
+}
+.modal_content_theater_seat_map #bottom-next-wrapper .btn.next-btn:active {
+	background-color:#0f0568 !important;
+	color: #FFF !important;
+}
+.modal_content_theater_seat_map .show-date-total-amount .total-right h4 {
+	color: #13087a !important;
+}
+
+.booking_process_customer_details .bookingtimer {
+	background: #08197a none repeat scroll 0 0 !important;
+}
+.booking_process_customer_details hr[style="border:1px solid red"] {
+	border:1px solid blue !important;
+}
+
+
+/*Theatres-Page*/
+.theatres .theatre_details tr a:hover {
+	color: #5900bf !important;
+}
+.theatres .theatre_bottom_wrap .btn {
+	background: #f8f4ff;
+	border: 1px solid #43007a !important;
+	color: #43007a !important;
+}
+.theatres .theatre_bottom_wrap .btn:hover {
+	background: #43007a !important;
+	color: #FFF !important;
+}
+.theatres .theatre_bottom_wrap .btn:active {
+	background-color:#5905c6 !important;
+}
+
+
+/*Login-Page*/
+.login-page a, .signup-page a{
+	color: #0023bf !important
+}

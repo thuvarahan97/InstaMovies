@@ -1,0 +1,128 @@
+.now_showing h1{
+    font-size: 45px;
+    font-weight: normal;
+    padding-left: 66px;
+}
+
+.upcoming_movies h1{
+    font-size: 45px;
+    font-weight: normal;
+    padding-left: 66px;
+}
+.card{
+    position: relative;
+    border: none;
+    background-color: rgb(235, 235, 235);
+    padding-bottom: 15px;
+}
+
+.card img:hover{
+    opacity: .8;
+    transition: : .5s;
+}
+
+.card-body{
+    margin-left: 7px;
+    margin-right: 7px;
+    padding: 0;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.card:hover:after{
+    opacity: .9;
+}
+
+.card .btn{
+    margin-top: 5px;
+}
+
+.now_showing .container{
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.upcoming_movies .container{
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*
+.owl-nav div{
+    margin-top: 10px;
+}
+.owl-nav .prevButton{
+    left: 120px;
+    position: absolute;
+}
+.owl-nav .nextButton{
+    right: 120px;
+    position: absolute;
+}
+.owl-nav a{
+    width:40px;
+    height:40px;
+    display: inline-block;
+    position: absolute;
+}
+
+.owl-nav a:hover{
+    cursor: pointer;
+}
+*/
+
+
+.owl-nav .owl-prev img{
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+
+.owl-nav .owl-next img{
+    position: absolute;
+    top: 30%;
+    right: 0;
+}
+
+.owl-carousel .card .card-body .btn-booking:focus, .btn-booking:active:focus, .btn-booking.active:focus {
+	outline: 0 none;
+}
+
+/*
+.owl-carousel .card img{
+    max-width: 270px;
+    min-width: 235px;
+    max-height: 430px;
+    min-height: 374px;
+}
+*/
+
+.owl-carousel .card .card-body .btn-booking{
+	color: #FFF;
+	background: -moz-linear-gradient(top,  #ee4747 50%, #e40000 50%); /* FF3.6+ */
+	background: -webkit-linear-gradient(top,  #ee4747 50%, #e40000 50%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,   #ee4747 50%, #e40000 50%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,   #ee4747 50%, #e40000 50%); /* IE10+ */
+	background: linear-gradient(to bottom,   #ee4747 50%, #e40000 50%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee4747', endColorstr='#e40000',GradientType=0 ); /* IE6-9 */
+}
+
+.owl-carousel .card .card-body .btn-booking:hover, .btn-booking:focus, .btn-booking:active, .btn-booking.active, .open > .dropdown-toggle.btn-booking {
+	background: -moz-linear-gradient(top,  #ff6e6e 50%, #ff2525 50%); /* FF3.6+ */
+	background: -webkit-linear-gradient(top,  #ff6e6e 50%, #ff2525 50%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,   #ff6e6e 50%, #ff2525 50%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,   #ff6e6e 50%, #ff2525 50%); /* IE10+ */
+	background: linear-gradient(to bottom,   #ff6e6e 50%, #ff2525 50%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=' #ff6e6e', endColorstr='#ff2525',GradientType=0 ); /* IE6-9 */
+}
+
+.owl-carousel .card .card-body .btn-booking:active, .btn-booking.active {
+	background: -moz-linear-gradient(top,  #e04242 50%, #da0101 50%); /* FF3.6+ */
+	background: -webkit-linear-gradient(top,  #e04242 50%, #da0101 50%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,   #e04242 50%, #da0101 50%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,   #e04242 50%, #da0101 50%); /* IE10+ */
+	background: linear-gradient(to bottom,   #e04242 50%, #da0101 50%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e04242', endColorstr='#da0101',GradientType=0 ); /* IE6-9 */
+	box-shadow: none;
+}
